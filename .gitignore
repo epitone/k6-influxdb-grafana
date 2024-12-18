@@ -1,0 +1,58 @@
+# compiled output
+/dist
+/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+*.env
+env_files/*
+env/*
+db_data
+
+firebaseServiceAccount.json
+google-services.json
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+data/grafana/alerting/*
+data/grafana/csv/*
+data/grafana/plugins/*
+data/grafana/png/*
+data/grafana/grafana.db
+
+data/influxdb/data/*
+data/influxdb/etc/*
+
